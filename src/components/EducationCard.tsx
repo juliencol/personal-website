@@ -1,5 +1,6 @@
 import React from "react";
 import EducationExperience from "../types/EducationExperience";
+import "../stylesheets/components/EducationCard.scss";
 
 const EducationCard = (props: EducationExperience) => {
   return (

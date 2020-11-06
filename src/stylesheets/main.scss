@@ -1,10 +1,14 @@
 // config
 @import "config/index";
 
+// App
+@import "./App";
+
 // components
-@import "components/App";
 @import "components/Header";
 @import "components/ProjectCard";
+@import "components/WorkCard";
+@import "components/EducationCard";
 
 // pages
 @import "pages/About";
