@@ -1,22 +1,25 @@
 import React, { Component } from "react";
-import "../stylesheets/pages/Projects.scss";
 import projects from "../data/projects.json";
 import ProjectCard from "../components/ProjectCard";
+import "../stylesheets/main.scss";
+import Project from "../types/Project";
 
 class Projects extends Component {
   render() {
     return (
       <>
-        <h1>Projects</h1>
-        {projects.map((project: any) => (
-          <ProjectCard
-            name={project.name}
-            image_source={project.image_source}
-            description={project.description}
-            website={project.website}
-            github={project.github}
-          />
-        ))}
+        <div className="container">
+          <h1 className="page-title">Projects</h1>
+          {projects.map((project: Project) => (
+            <ProjectCard
+              name={project.name}
+              image_source={project.image_source}
+              description={project.description}
+              website={project.website}
+              github={project.github}
+            />
+          ))}
+        </div>
       </>
     );
   }

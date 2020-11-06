@@ -1,28 +1,32 @@
 [
   {
     "name": "ISEP",
-    "duration": "2017 - 2022",
+    "date": "2017 - 2022",
+    "duration": "5 years",
     "role": "Master's degree in computer science",
     "description": "Software Engineering major and Artificial Intelligence minor (advanced algorithms and data structures, web development, design patterns, agile methodology, databases management and big data, machine learning)."
   },
 
   {
     "name": "Le Wagon",
-    "duration": "Summer 2019",
+    "date": "Summer 2019",
+    "duration": "9 weeks",
     "role": "Web development coding bootcamp",
     "description": "9-week intensive coding bootcamp in web development (HTML, CSS, Bootstrap, ES6 JavaScript, SQL, PostgreSQL, Ruby on Rails, Git, Github, TDD, Design Prototyping, Heroku, Cloudinary, Mapbox, Stripe, Algolia and more)."
   },
 
   {
     "name": "42 Silicon Valley",
-    "duration": "Summer 2017",
+    "date": "Summer 2017",
+    "duration": "4 weeks",
     "role": "Piscine program",
     "description": "1-month intensive coding bootcamp focused on C language and bash scripting."
   },
 
   {
     "name": "Collège Stanislas",
-    "duration": "2010 - 2017",
+    "date": "2010 - 2017",
+    "duration": "10 years",
     "role": "Mathematics Specialty",
     "description": "Great school with high standards in Mathematics. Graduated with honors."
   }

@@ -2,7 +2,6 @@
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
   text-decoration: none;
   width: 550px;
   font-family: "Roboto Mono", monospace;
@@ -13,12 +12,13 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-bottom: 1em;
+  margin-right: 1em;
+
   &:hover {
 		cursor: pointer;
 		opacity: 0.9;
 	}
-  margin-bottom: 1em;
-  margin-right: 1em;
 
   img {
     height: 200px;

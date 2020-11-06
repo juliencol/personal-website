@@ -1,23 +1,26 @@
 import React, { Component } from "react";
-import "../stylesheets/pages/Work.scss";
-import workExperiences from "../data/work.json";
+import workExperiences from "../data/work_experiences.json";
 import WorkCard from "../components/WorkCard";
+import "../stylesheets/main.scss";
+import WorkExperience from "../types/WorkExperience";
 
 class Work extends Component {
   render() {
     return (
       <>
-        <h1>Work</h1>
-        {workExperiences.map((workExperience: any) => (
-          <WorkCard
-            name={workExperience.name}
-            city={workExperience.city}
-            date={workExperience.date}
-            duration={workExperience.duration}
-            role={workExperience.role}
-            description={workExperience.description}
-          />
-        ))}
+        <div className="container">
+          <h1 className="page-title ">Work Experience</h1>
+          {workExperiences.map((experience: WorkExperience) => (
+            <WorkCard
+              name={experience.name}
+              city={experience.city}
+              date={experience.date}
+              duration={experience.duration}
+              role={experience.role}
+              description={experience.description}
+            />
+          ))}
+        </div>
       </>
     );
   }

@@ -1,11 +1,12 @@
 import React from "react";
 import EducationExperience from "../types/EducationExperience";
-import "../stylesheets/components/EducationCard.scss";
+import "../stylesheets/main.scss";
 
 const EducationCard = (props: EducationExperience) => {
   return (
-    <div>
-      <h1>{props.name}</h1>
+    <div className="">
+      <h3>{props.name}</h3>
+      <p>{props.date}</p>
       <p>{props.duration}</p>
       <p>{props.role}</p>
       <p>{props.description}</p>

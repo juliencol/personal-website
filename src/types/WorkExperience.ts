@@ -1,9 +1,10 @@
-interface EducationExperience {
+interface WorkExperience {
   name: string;
+  city: string;
   date: string;
   duration: string;
   role: string;
   description: string;
 }
 
-export default EducationExperience;
+export default WorkExperience;
