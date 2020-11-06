@@ -1,18 +1,19 @@
 import React from "react";
 import Header from "./Header";
-import "../stylesheets/components/App.css";
+import "../stylesheets/components/App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Education from "./Education";
-import Work from "./Work";
-import Projects from "./Projects";
+import Education from "../pages/Education";
+import Work from "../pages/Work";
+import Projects from "../pages/Projects";
+import About from "../pages/About";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
-      <h2>In construction...</h2>
       <Router>
+        <Route path="/" exact component={About} />
         <Route path="/education" exact component={Education} />
         <Route path="/work" exact component={Work} />
         <Route path="/projects" exact component={Projects} />
