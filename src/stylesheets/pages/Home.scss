@@ -1,0 +1,45 @@
+.main-container {
+  margin-left: 30px;
+
+  .profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .description-container {
+    text-align: center;
+  }
+
+  .call-to-action {
+    margin-top: 30px;
+    text-align: center;
+
+    a {
+      color: black;
+      margin: 30px;
+    }
+  }
+
+  img {
+    border-radius: 50%;
+    width: 160px;
+  }
+
+  .social-links {
+    margin-top: 12px;
+
+    a {
+      font-size: 24px;
+      margin: 0 2px;
+      color: black;
+      margin: 8px;
+
+      :hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+
+
