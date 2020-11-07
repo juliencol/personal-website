@@ -1,25 +1,22 @@
 [
   {
-    "name": "Project 1",
-    "description": "Cool project",
-    "image_source": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    "website": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    "github": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png"
+    "name": "Unify",
+    "description": "Progressive web application to manage school events at Isep.",
+    "image_source": "https://i.ytimg.com/vi/kd3rLaNyRig/maxresdefault.jpg",
+    "website": "https://unifyisep-production.herokuapp.com"
   },
 
   {
-    "name": "Project 2",
-    "description": "Cool project",
-    "image_source": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    "website": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    "github": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png"
+    "name": "Palm",
+    "description": "Web application to book islands all over the world.",
+    "image_source": "https://res.cloudinary.com/okgaetan/image/upload/v1566745445/qzjrxeedpopkhx21phs8.jpg",
+    "website": "https://airbnb-palm.herokuapp.com"
   },
 
   {
-    "name": "Project 3",
-    "description": "Cool project",
-    "image_source": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    "website": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    "github": "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png"
+    "name": "Tech time",
+    "description": "Timeline referencing most important events in tech.",
+    "image_source": "https://tech-time.fr/wp-content/uploads/2020/07/cropped-Tech-Time-2-4.png",
+    "website": "https://tech-time.fr"
   }
 ]

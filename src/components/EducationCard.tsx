@@ -6,9 +6,8 @@ const EducationCard = (props: EducationExperience) => {
   return (
     <div className="">
       <h3>{props.name}</h3>
-      <p>{props.date}</p>
-      <p>{props.duration}</p>
-      <p>{props.role}</p>
+      <p>{props.date} ({props.duration})</p>
+      <p><i>{props.role}</i></p>
       <p>{props.description}</p>
     </div>
   );

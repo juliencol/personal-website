@@ -1,17 +1,25 @@
 import React from "react";
-import "../stylesheets/components/WorkCard.scss";
+import "../stylesheets/main.scss";
+import WorkExperience from "../types/WorkExperience";
 
-const WorkCard = (props: any) => {
+const WorkCard = (props: WorkExperience) => {
   return (
-    <div className="">
-      <img src={props.image_source} alt="" />
-      <div className="">
-        <div>
-          <h3>{props.name}</h3>
-          <p>{props.city}</p>
-          <p>{props.date}</p>
-          <p>{props.duration}</p>
-          <p>{props.role}</p>
+    <div className="container">
+      <div className="work-card">
+        <div className="work-card-title">
+          <h3>
+            {props.name}, {props.city}
+          </h3>
+        </div>
+        <div className="work-card-infos">
+          <div className="date">
+            <p>
+              <i>{props.role}</i>
+            </p>
+            <p>
+              {props.date} ({props.duration})
+            </p>
+          </div>
           <p>{props.description}</p>
         </div>
       </div>

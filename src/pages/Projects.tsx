@@ -10,15 +10,18 @@ class Projects extends Component {
       <>
         <div className="container">
           <h1 className="page-title">Projects</h1>
-          {projects.map((project: Project) => (
-            <ProjectCard
-              name={project.name}
-              image_source={project.image_source}
-              description={project.description}
-              website={project.website}
-              github={project.github}
-            />
-          ))}
+          <div className="project-cards-container">
+            {projects.map((project: Project) => (
+              <a href={project.website}>
+                <ProjectCard
+                  name={project.name}
+                  image_source={project.image_source}
+                  description={project.description}
+                  website={project.website}
+                />
+              </a>
+            ))}
+          </div>
         </div>
       </>
     );

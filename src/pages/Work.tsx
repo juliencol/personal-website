@@ -9,7 +9,7 @@ class Work extends Component {
     return (
       <>
         <div className="container">
-          <h1 className="page-title ">Work Experience</h1>
+          <h1 className="page-title ">Work Experiences</h1>
           {workExperiences.map((experience: WorkExperience) => (
             <WorkCard
               name={experience.name}

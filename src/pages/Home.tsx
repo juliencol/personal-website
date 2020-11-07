@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 import "../stylesheets/main.scss";
 import profilePicture from "../assets/images/profile_picture.jpg";
-import resume from "../assets/documents/resume.pdf";
 
 class Home extends Component {
   render() {
@@ -37,7 +36,7 @@ class Home extends Component {
             </p>
           </div>
           <div className="call-to-action">
-            <a href={resume} className="btn-cta">
+            <a href="../assets/documents/resume.pdf" className="btn-cta">
               <strong>Resume</strong>
             </a>
             <a href="mailto:julien@colombain.com" className="btn-cta">
