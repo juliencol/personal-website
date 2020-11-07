@@ -2,21 +2,21 @@
   {
     "name": "Unify",
     "description": "Progressive web application to manage school events at Isep.",
-    "image_source": "https://i.ytimg.com/vi/kd3rLaNyRig/maxresdefault.jpg",
+    "image_source": "https://i.ibb.co/YRBWdCZ/logo-unify.png",
     "website": "https://unifyisep-production.herokuapp.com"
   },
 
   {
     "name": "Palm",
     "description": "Web application to book islands all over the world.",
-    "image_source": "https://res.cloudinary.com/okgaetan/image/upload/v1566745445/qzjrxeedpopkhx21phs8.jpg",
-    "website": "https://airbnb-palm.herokuapp.com"
+    "image_source": "https://i.ibb.co/7GJ6Lqf/logo-palm.png",
+    "website": "https://airbnb-palm.herokuapp.com/"
   },
 
   {
     "name": "Tech time",
     "description": "Timeline referencing most important events in tech.",
-    "image_source": "https://tech-time.fr/wp-content/uploads/2020/07/cropped-Tech-Time-2-4.png",
+    "image_source": "https://i.ibb.co/PMcv9MM/logo-tech-time.jpg",
     "website": "https://tech-time.fr"
   }
 ]

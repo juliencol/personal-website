@@ -21,6 +21,9 @@ const WorkCard = (props: WorkExperience) => {
             </p>
           </div>
           <p>{props.description}</p>
+          <p>
+            <strong>Technologies</strong>: {props.technologies}
+          </p>
         </div>
       </div>
     </div>

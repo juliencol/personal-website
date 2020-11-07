@@ -5,6 +5,7 @@ interface WorkExperience {
   duration: string;
   role: string;
   description: string;
+  technologies: string;
 }
 
 export default WorkExperience;

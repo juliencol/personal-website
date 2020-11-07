@@ -4,7 +4,7 @@
     "date": "2017 - 2022",
     "duration": "5 years",
     "role": "Master's degree in computer science",
-    "description": "Software Engineering major and Artificial Intelligence minor (advanced algorithms and data structures, web development, design patterns, agile methodology, databases management and big data, machine learning)."
+    "description": "Software Engineering major and Artificial Intelligence minor. Courses on advanced algorithms and data structures, web development, design patterns, agile methodology, databases management, big data and machine learning."
   },
 
   {
@@ -12,7 +12,7 @@
     "date": "Summer 2019",
     "duration": "9 weeks",
     "role": "Web development coding bootcamp",
-    "description": "Intensive coding bootcamp in web development (HTML, CSS, Bootstrap, ES6 JavaScript, SQL, PostgreSQL, Ruby on Rails, Git, Github, TDD, Design Prototyping, Heroku, Cloudinary, Mapbox, Stripe, Algolia and more)."
+    "description": "Intensive coding bootcamp learning web development basics (HTML, CSS, Bootstrap, ES6 JavaScript, SQL, PostgreSQL, Ruby on Rails). Built 2 projects interacting with Heroku, Cloudinary, Mapbox, Stripe, Algolia and more."
   },
 
   {
@@ -28,6 +28,6 @@
     "date": "2010 - 2017",
     "duration": "10 years",
     "role": "Mathematics Specialty",
-    "description": "Great school with high standards in Mathematics. Graduated with honors."
+    "description": "Top rated french high school with a really high level in Mathematics. Graduated with honors."
   }
 ]

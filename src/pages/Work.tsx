@@ -18,6 +18,7 @@ class Work extends Component {
               duration={experience.duration}
               role={experience.role}
               description={experience.description}
+              technologies={experience.technologies}
             />
           ))}
         </div>

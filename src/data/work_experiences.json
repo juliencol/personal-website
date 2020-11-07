@@ -5,15 +5,17 @@
     "date": "Aug 2020 - Feb 2021",
     "duration": "6 months",
     "role": "Software Engineer Intern",
-    "description": "Developed internal tools in typescript."
+    "description": "Developed internal tools to increase developers productivity and built a cleaning service to delete biometric data in accordance to the GDPR.",
+    "technologies": "Typescript, Node, MongoDB, GCP, Docker, Kubernetes, Datadog"
   },
 
   {
     "name": "Qwant",
     "city": "Paris",
-    "date": "Summer 2020",
+    "date": "Summer 2018",
     "duration": "2 months",
     "role": "Software Engineer Intern",
-    "description": "Worked on the frontend of Qwant Junior product."
+    "description": "Evaluated and optimized the efficiency of the search engine requests and worked on the frontend of Qwant Junior product.",
+    "technologies": "HTML, CSS and Vanilla Javascript"
   }
 ]
