@@ -32,11 +32,11 @@ class Home extends Component {
               <a href="http://www.thedeepsense.co">
                 <strong>Deepsense</strong>
               </a>{" "}
-              in Paris as a <strong>Software Engineer Intern</strong>.
+              as a <strong>Software Engineer Intern</strong>.
             </p>
           </div>
           <div className="call-to-action">
-            <a href="../assets/documents/resume.pdf" className="btn-cta">
+            <a href="resume" className="btn-cta">
               <strong>Resume</strong>
             </a>
             <a href="mailto:julien@colombain.com" className="btn-cta">

@@ -1,0 +1,21 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .resume-image {
+    margin-top: 15px;
+    border: solid black 1px;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .resume-image {
+    display: none;
+  }
+}
