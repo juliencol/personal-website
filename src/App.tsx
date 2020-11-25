@@ -7,7 +7,6 @@ import Education from "./pages/Education";
 import Work from "./pages/Work";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
-import Resume from "./pages/Resume";
 import Header from "./components/Header";
 import "./stylesheets/main.scss";
 
@@ -63,7 +62,6 @@ const App = () => {
           <Route path="/education" exact component={Education} />
           <Route path="/work" exact component={Work} />
           <Route path="/projects" exact component={Projects} />
-          <Route path="/resume" exact component={Resume} />
         </Router>
       </>
     </ThemeProvider>
