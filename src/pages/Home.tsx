@@ -25,16 +25,28 @@ class Home extends Component {
           </div>
           <div className="description-container">
             <p>
-              Hi 👋, I'm Julien, a 21-year-old <strong>Computer Science student</strong> living in{" "}
-              <strong>Paris</strong>.
+              👋 Hi, I'm Julien, a french 21-year-old <strong>Computer Science student</strong> living in{" "}
+              <strong>Paris</strong>. 🇫🇷
             </p>
             <p>
               I am currently working at{" "}
               <a href="http://www.thedeepsense.co">
                 <strong>Deepsense</strong>
               </a>{" "}
-              as a <strong>Software Engineer Intern</strong>.
+              as a <strong>Software Engineer Intern</strong>. 🤓
             </p>
+            <p>
+              Highly interested in <strong>Deeptech</strong> and <strong>Fintech</strong>, I aim to work
+              internationally as a <strong>Software Engineer</strong>. 👨‍💻
+            </p>
+            <p>
+              I will graduate from{" "}
+              <a href="https://www.isep.fr/">
+                <strong>ISEP</strong>
+              </a>{" "}
+              in 2022. 🎓
+            </p>
+            <p>Feel free to reach out to grab a coffee. ☕</p>
           </div>
           <div className="call-to-action">
             <a href={resumePdf} className="btn-cta" download="JulienColombainResume.pdf">
