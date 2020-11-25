@@ -29,11 +29,11 @@ class Home extends Component {
               <strong>Paris</strong>. 🇫🇷
             </p>
             <p>
-              I am currently working at{" "}
+              I am currently working as a <strong>Software Engineer Intern</strong> at{" "}
               <a href="http://www.thedeepsense.co">
                 <strong>Deepsense</strong>
-              </a>{" "}
-              as a <strong>Software Engineer Intern</strong>. 🤓
+              </a>
+              . 🤓
             </p>
             <p>
               Highly interested in <strong>Deeptech</strong> and <strong>Fintech</strong>, I aim to work
